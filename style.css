@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:#1F1F1F;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+.nav-link:hover{    
+    text-transform: uppercase;
+    color: #ff9c35!important;
+}
+
+.buy-now-button{
+    color: #FFF;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 8px 24px;
+    border-radius:5px;
+    cursor: pointer;
+    border: none;
+}
+
+.buy-now-button:hover{
+    background-image: linear-gradient(to right, #ff9c35, #ffa92e, #ffb527, #ffc31f, #ffd019);
+    color: #000;
+    font-weight: 700;
+}
+
+.carousel-content h1{
+    margin-bottom: 4%;
+}
+
+.carousel-content p{    
+    margin-bottom: 8%;
+}
+
+.carousel-indicators{
+    margin-bottom: -5%;
+}
+
+.carousel-indicators li{
+    height: 12px;
+    width: 16px;
+    background-color: #CECECE;
+    border-radius: 48%;
+}
+
+.carousel-indicators li.active {
+    height: 12px;
+    width: 45px;
+    background-image: linear-gradient(to right, #ff9c35, #ffa92e, #ffb527, #ffc31f, #ffd019);
+    border-radius: 30px;
+}
+
+.product{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.see-all-style{
+    color:#FF9D00;
+    text-decoration: none !important; 
+    font-size: 22px;
+}
+
+.card{
+    border:none;
+    box-shadow: 2px 2px 10px -2px rgba(112,112,112,0.25);
+    border-radius: 10px;
+    padding: 5% 2% 3% 2%;
+}
+
+.card:hover{
+    border: 1px solid #ff9c35;
+    box-shadow: 3px 3px 10px -2px rgba(112,112,112,0.25);
+}
+
+.card-text{
+    color: dimgray;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.card-body h5{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.card-beauty{
+    margin-bottom: 30px;
+}
+
+.horizontal-bar{
+    height: 9px;
+    background-image: linear-gradient(to right, #ff9c35, #ffa92e, #ffb527, #ffc31f, #ffd019);
+    width: 10%;
+    margin-top: 10px;
+    border-radius: 10px;   
+}
+
+.team-members:hover{
+    border: 1px solid #ff9c35;
+    box-shadow: 3px 3px 10px -2px rgba(112,112,112,0.25);
+}
+
+.team-members h3{
+    font-size: 20px;
+}
